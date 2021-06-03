@@ -62,6 +62,9 @@
     "export-db": [
       "wp db export .database/clear-install.mysql"
     ],
+    "scaffold-theme": [
+      "wp scaffold _s sample-theme --theme_name=\"Sample Theme\" --author=\"Andy\" --activate"
+    ],
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],

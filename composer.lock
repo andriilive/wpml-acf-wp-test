@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90172fcc25f5e20f56043166f5088f22",
+    "content-hash": "8e0f2acee2335e90878d2e57d2b05354",
     "packages": [
         {
             "name": "composer/installers",
@@ -921,6 +921,24 @@
                 }
             ],
             "time": "2021-01-20T15:23:13+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/wp-sweep",
+            "version": "1.1.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-sweep/",
+                "reference": "tags/1.1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-sweep.1.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-sweep/"
         }
     ],
     "packages-dev": [

@@ -2,7 +2,8 @@
 
 **Login & user**: admin
 
-## Useful commands first:
+---
+## Useful commands cheatsheet:
 
 ```bash
 $ wp post meta list 1
@@ -10,6 +11,11 @@ $ wp db export .database/acf-only.mysql
 $ wp export --dir=.export/ --post__in=1 --filename_format="post-acf-only.xml" 
 $ composer require wpackagist-plugin/*
 ```
+
+## Purge ACF
+
+ACF keeps meta for deleted fields groups, to remove this meta:
+
 
 ## See also:
 
@@ -191,8 +197,6 @@ $ composer require wpackagist-plugin/*
 | 45      | _edit_lock             | 1622726935:1        |
 +---------+------------------------+---------------------+
 ```
-
-### Field Groups (acf-field-group) set Translatable - use translation if available or fallback to default language
 
 
 

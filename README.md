@@ -6,10 +6,21 @@
 ## Useful commands cheatsheet:
 
 ```bash
+# Show post meta
 $ wp post meta list 1
+
+# Export database
 $ wp db export .database/acf-only.mysql
-$ wp export --dir=.export/ --post__in=1 --filename_format="post-acf-only.xml" 
+
+# Export post data
+$ wp export --dir=.export/ --post__in=1 --filename_format="post-acf-only.xml"
+
+# Install plugin 
 $ composer require wpackagist-plugin/*
+
+# Run db query
+$ wp db query < .sql/acf/select.sql
+$ wp db query < .sql/acf/delete.sql
 ```
 
 ## Purge ACF

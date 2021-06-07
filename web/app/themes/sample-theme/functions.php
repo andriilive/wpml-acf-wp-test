@@ -185,3 +185,7 @@ if (defined('JETPACK__VERSION')) {
 foreach (glob(get_template_directory() .'/acf-fields/*.php') as $filename) {
     include $filename;
 }
+
+if (function_exists('acf_add_options_page')) {
+    acf_add_options_page();
+}

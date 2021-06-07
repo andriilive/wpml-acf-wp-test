@@ -33,6 +33,7 @@ $ wp db query 'SELECT * FROM wp_postmeta WHERE wp_postmeta.meta_key = "delete_me
 $ wp db query 'DELETE FROM wp_postmeta WHERE wp_postmeta.meta_key = "delete_me" OR wp_postmeta.meta_key = "_delete_me"'
 ```
 
+TODO: Plugin to purge deleted ACF
 
 ## See also:
 
@@ -42,6 +43,10 @@ $ wp db query 'DELETE FROM wp_postmeta WHERE wp_postmeta.meta_key = "delete_me" 
 
 [Translate ACF with WPML](https://wpml.org/documentation/related-projects/translate-sites-built-with-acf/)
 
+
+## Maintenance Plugins:
+
+[Cleanup Duplicate Meta](https://wpdevelopersclub.com/wordpress-plugins/cleanup-duplicate-meta)
 
 ---
 

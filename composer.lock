@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e0f2acee2335e90878d2e57d2b05354",
+    "content-hash": "fa951da97d8958d883e5a3eea42b1b08",
     "packages": [
         {
             "name": "composer/installers",
@@ -921,6 +921,24 @@
                 }
             ],
             "time": "2021-01-20T15:23:13+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/cleanup-duplicate-meta",
+            "version": "1.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cleanup-duplicate-meta/",
+                "reference": "tags/1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cleanup-duplicate-meta.1.0.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cleanup-duplicate-meta/"
         },
         {
             "name": "wpackagist-plugin/wp-sweep",

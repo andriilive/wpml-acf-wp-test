@@ -25,7 +25,13 @@ $ wp db query < .sql/acf/delete.sql
 
 ## Purge ACF
 
-ACF keeps meta for deleted fields groups, to remove this meta:
+ACF keeps meta for deleted fields groups, to remove this meta run SQL query
+
+```bash
+$ wp db query 'SELECT * FROM wp_postmeta WHERE wp_postmeta.meta_key = "delete_me" OR wp_postmeta.meta_key = "_delete_me"'
+
+$ wp db query 'DELETE FROM wp_postmeta WHERE wp_postmeta.meta_key = "delete_me" OR wp_postmeta.meta_key = "_delete_me"'
+```
 
 
 ## See also:

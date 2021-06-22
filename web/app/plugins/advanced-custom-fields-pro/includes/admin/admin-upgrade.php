@@ -107,7 +107,7 @@ class ACF_Admin_Upgrade {
 		
 		// Add page.
 		$page = add_submenu_page(
-			'index.php',
+			'index.php', 
 			__('Upgrade Database','acf'), 
 			__('Upgrade Database','acf'), 
 			acf_get_setting('capability'), 

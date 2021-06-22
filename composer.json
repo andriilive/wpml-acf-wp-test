@@ -64,7 +64,9 @@
   "scripts": {
     "install" : [
       "composer install",
-      "cd web/app/themes/sample-theme && composer install && yarn"
+      "cd web/app/themes/sample-theme && composer install && yarn",
+      "valet link wp-playground",
+      "valet use php && composer global update && valet restart && valet open"
     ],
     "export-db": [
       "wp db export .database/clear-install.mysql"

@@ -40,7 +40,8 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wordpress": "5.2.2",
     "wpackagist-plugin/wp-sweep": "^1.1",
-    "wpackagist-plugin/cleanup-duplicate-meta": "^1.0"
+    "wpackagist-plugin/cleanup-duplicate-meta": "^1.0",
+    "wpackagist-plugin/acf-extended": "0.8.8.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
@@ -61,6 +62,10 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
+    "install" : [
+      "composer install",
+      "cd web/app/themes/sample-theme && composer install && yarn"
+    ],
     "export-db": [
       "wp db export .database/clear-install.mysql"
     ],

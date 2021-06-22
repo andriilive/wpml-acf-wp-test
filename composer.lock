@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa951da97d8958d883e5a3eea42b1b08",
+    "content-hash": "b39f806e9930d10b5399d575a450a494",
     "packages": [
         {
             "name": "composer/installers",
@@ -923,6 +923,24 @@
             "time": "2021-01-20T15:23:13+00:00"
         },
         {
+            "name": "wpackagist-plugin/acf-extended",
+            "version": "0.8.8.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-extended/",
+                "reference": "tags/0.8.8.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.8.8.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-extended/"
+        },
+        {
             "name": "wpackagist-plugin/cleanup-duplicate-meta",
             "version": "1.0.2",
             "source": {
@@ -1376,5 +1394,5 @@
         "php": ">=7.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

@@ -42,7 +42,8 @@
     "wpackagist-plugin/wp-sweep": "^1.1",
     "wpackagist-plugin/cleanup-duplicate-meta": "^1.0",
     "wpackagist-plugin/acf-extended": "0.8.8.4",
-    "andriilive/wp-disable-generated-image-sizes": "dev-main"
+    "andriilive/wp-disable-generated-image-sizes": "dev-main",
+    "wpackagist-plugin/timber-library": "^1.18"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.0",
@@ -63,7 +64,7 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
-    "install" : [
+    "deps-install" : [
       "composer install",
       "cd web/app/themes/sample-theme && composer install && yarn",
       "valet link wp-playground",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b196402ae294b4dc38b9ca6fb04b17d1",
+    "content-hash": "76d4cd0ca7bb3dfaa234fc2dbf56ebf1",
     "packages": [
         {
             "name": "andriilive/wp-disable-generated-image-sizes",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/andriilive/wp-disable-generated-image-sizes.git",
-                "reference": "8e4d840a9076b4b37a80d5a4a77410aa4bf714cd"
+                "reference": "52eaeba1cfd319816421174295454e95996e311a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andriilive/wp-disable-generated-image-sizes/zipball/8e4d840a9076b4b37a80d5a4a77410aa4bf714cd",
-                "reference": "8e4d840a9076b4b37a80d5a4a77410aa4bf714cd",
+                "url": "https://api.github.com/repos/andriilive/wp-disable-generated-image-sizes/zipball/52eaeba1cfd319816421174295454e95996e311a",
+                "reference": "52eaeba1cfd319816421174295454e95996e311a",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "issues": "https://github.com/andriilive/wp-disable-generated-image-sizes/issues",
                 "source": "https://github.com/andriilive/wp-disable-generated-image-sizes/tree/main"
             },
-            "time": "2021-06-22T22:46:52+00:00"
+            "time": "2021-06-22T22:56:26+00:00"
         },
         {
             "name": "composer/installers",
@@ -1004,6 +1004,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/cleanup-duplicate-meta/"
+        },
+        {
+            "name": "wpackagist-plugin/timber-library",
+            "version": "1.18.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/timber-library/",
+                "reference": "tags/1.18.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.18.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/timber-library/"
         },
         {
             "name": "wpackagist-plugin/wp-sweep",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f83b511840fd210d2216ced6f743e163",
+    "content-hash": "d8e35adb0b93ca9991853651968d1e58",
     "packages": [
         {
             "name": "andriilive/wp-disable-generated-image-sizes",
@@ -1058,24 +1058,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/timber-library/"
-        },
-        {
-            "name": "wpackagist-plugin/timber-with-jetpack-photon",
-            "version": "0.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/timber-with-jetpack-photon/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-with-jetpack-photon.zip?timestamp=1446408760"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/timber-with-jetpack-photon/"
         },
         {
             "name": "wpackagist-plugin/wp-sweep",

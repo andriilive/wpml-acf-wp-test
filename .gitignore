@@ -39,3 +39,4 @@ web/app/themes/*/vendor
 
 !web/app/plugins/timber-wpml.php
 !web/app/plugins/timber-jetpack-asset-cdn.php
+!web/app/plugins/timber-yoast-seo.php

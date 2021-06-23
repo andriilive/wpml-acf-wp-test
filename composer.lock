@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76d4cd0ca7bb3dfaa234fc2dbf56ebf1",
+    "content-hash": "f83b511840fd210d2216ced6f743e163",
     "packages": [
         {
             "name": "andriilive/wp-disable-generated-image-sizes",
@@ -988,6 +988,24 @@
             "homepage": "https://wordpress.org/plugins/acf-extended/"
         },
         {
+            "name": "wpackagist-plugin/acf-timber-integration",
+            "version": "1.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-timber-integration/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-timber-integration.zip?timestamp=1612953755"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-timber-integration/"
+        },
+        {
             "name": "wpackagist-plugin/cleanup-duplicate-meta",
             "version": "1.0.2",
             "source": {
@@ -1006,6 +1024,24 @@
             "homepage": "https://wordpress.org/plugins/cleanup-duplicate-meta/"
         },
         {
+            "name": "wpackagist-plugin/jetpack",
+            "version": "9.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
+                "reference": "tags/9.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.9.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
             "name": "wpackagist-plugin/timber-library",
             "version": "1.18.2",
             "source": {
@@ -1022,6 +1058,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/timber-library/"
+        },
+        {
+            "name": "wpackagist-plugin/timber-with-jetpack-photon",
+            "version": "0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/timber-with-jetpack-photon/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-with-jetpack-photon.zip?timestamp=1446408760"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/timber-with-jetpack-photon/"
         },
         {
             "name": "wpackagist-plugin/wp-sweep",

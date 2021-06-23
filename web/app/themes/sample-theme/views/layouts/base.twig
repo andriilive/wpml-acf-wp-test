@@ -1,0 +1,30 @@
+<!doctype html>
+<html {{ language_attributes }}>
+<head>
+	<meta charset="{{ site.url }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	{{ function('wp_head') }}
+</head>
+
+<body {{ body_class }}>
+{{ function('wp_body_open') }}
+<div id="page" class="site">
+	<header id="masthead" class="site-header">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="{{ site.url }}" rel="home">{{ site.name }}</a></h1>
+		</div><!-- .site-branding -->
+
+		<nav id="site-navigation" class="main-navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+			<?php
+            wp_nav_menu(
+                array(
+                    'theme_location' => 'menu-1',
+			'menu_id'        => 'primary-menu',
+			)
+			);
+			?>
+		</nav><!-- #site-navigation -->
+	</header><!-- #masthead -->
+	<hr>

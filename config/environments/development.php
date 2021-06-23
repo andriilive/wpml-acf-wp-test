@@ -11,6 +11,7 @@ Config::define('WP_DEBUG_DISPLAY', true);
 Config::define('WP_DISABLE_FATAL_ERROR_HANDLER', true);
 Config::define('SCRIPT_DEBUG', true);
 Config::define('JETPACK_DEV_DEBUG', true);
+Config::define('WPML_ENVIRONMENT', 'test');
 
 //ini_set('display_errors', '1');
 

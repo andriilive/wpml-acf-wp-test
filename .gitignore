@@ -36,3 +36,6 @@ wp-cli.local.yml
 web/app/themes/*/node_modules
 web/app/themes/*/vendor
 !web/app/themes/*/acf-json
+
+!web/app/plugins/timber-wpml.php
+!web/app/plugins/timber-jetpack-asset-cdn.php

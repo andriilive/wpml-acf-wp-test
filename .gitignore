@@ -31,5 +31,7 @@ web/.htaccess
 # WP-CLI
 wp-cli.local.yml
 .DS_Store
+!web/app/themes/starter-theme/*
 web/app/themes/*/node_modules
 web/app/themes/*/vendor
+!web/app/themes/*/acf-json

@@ -96,6 +96,7 @@ class TimberWithWPML
 //        $context['obj_id'] = get_queried_object_id();
 
         // https://wpml.org/wpml-hook/wpml_element_has_translations/
+        // TODO: MAKE THIS SHIT WORK
         $is_translated = apply_filters('wpml_element_has_translations', null, get_queried_object_id());
 
         if ($is_translated && $this->wpml_get_translations()) {
